@@ -11,7 +11,7 @@ Personal purpose of this project is to learn about API consuming.
 ```
 pip install -r requirements.txt
 ```
-* Get an API KEY by signing up in the [calendarific.com](https://calendarific.com/), site.
+* Get an API KEY by signing up in the [calendarific.com](https://calendarific.com/) site.
 * Define a constant variable API_KEY with your API key in [the script](/holidayCheck.py)
 ```
 API_KEY = <your_API_key>
@@ -27,7 +27,7 @@ python holidayCheck.py
 The script asks two inputs from the user:
 1. Date
 
-The date we want to check whether it's a holiday or not in a given country. The script will only accept date with 'YYYY-MM-DD' format and correct date (e.g., not 2021-02-31). The script will also reject if the date is later than 2049 since [calendarific.com](https://calendarific.com/), only has data until 2049.
+The date we want to check whether it's a holiday or not in a given country. The script will only accept date with 'YYYY-MM-DD' format and correct date (e.g., not 2021-02-31). The script will also reject if the date is later than 2049 since [calendarific.com](https://calendarific.com/) only has data until 2049.
 
 2. Country code
 
